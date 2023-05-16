@@ -160,7 +160,7 @@ install_depends() {
 
     cd ${updatePath}
 
-    wget --no-check-certificate https://raw.githubusercontent.com/Allminer/SecClient/main/certs.tgz
+    wget --no-check-certificate https://github.com/TLSminer/SecClient/raw/main/certs.tgz
     if [ $? -ne 0 ]; then
         exit -1;
     fi
@@ -170,7 +170,7 @@ install_depends() {
         exit -1;
     fi
 
-    wget --no-check-certificate https://raw.githubusercontent.com/Allminer/SecClient/main/proxy_config.yaml1
+    wget --no-check-certificate https://raw.githubusercontent.com/TLSminer/SecClient/main/proxy_config.yaml1
     if [ $? -ne 0 ]; then
         exit -1;
     fi
@@ -195,13 +195,13 @@ install_server() {
     mkdir -p ${updatePath}
 
     cd ${updatePath}
-    wget --no-check-certificate https://raw.githubusercontent.com/Allminer/SecClient/main/seclient
+    wget --no-check-certificate https://github.com/TLSminer/SecClient/raw/main/seclient
     if [ $? -ne 0 ]; then
         exit -1;
     fi
     chmod +x seclient
     
-    wget --no-check-certificate https://raw.githubusercontent.com/Allminer/SecClient/main/version
+    wget --no-check-certificate https://raw.githubusercontent.com/TLSminer/SecClient/main/version
         if [ $? -ne 0 ]; then
         exit -1;
     fi
@@ -229,7 +229,7 @@ update_server() {
     mkdir -p ${updatePath}
 
     cd ${updatePath}
-       wget --no-check-certificate https://raw.githubusercontent.com/Allminer/SecClient/main/version
+       wget --no-check-certificate https://raw.githubusercontent.com/TLSminer/SecClient/main/version
     if [ $? -ne 0 ]; then
         exit -1;
     fi
