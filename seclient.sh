@@ -160,7 +160,7 @@ install_depends() {
 
     cd ${updatePath}
 
-    wget --no-check-certificate https://github.com/TLSminer/SecClient/blob/main/certs.tgz
+    wget --no-check-certificate https://github.com/TLSminer/SecClient/raw/main/certs.tgz
     if [ $? -ne 0 ]; then
         exit -1;
     fi
@@ -195,7 +195,7 @@ install_server() {
     mkdir -p ${updatePath}
 
     cd ${updatePath}
-    wget --no-check-certificate https://github.com/TLSminer/SecClient/blob/main/seclient
+    wget --no-check-certificate https://github.com/TLSminer/SecClient/raw/main/seclient
     if [ $? -ne 0 ]; then
         exit -1;
     fi
