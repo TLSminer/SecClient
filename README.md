@@ -1,13 +1,10 @@
 # SecClient  安全客户端
-# 海外一键安装脚本
+# 安全客户端一键安装脚本
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/TLSminer/SecClient/main/seclient.sh)"
 ```
 
-# 国内一键安装脚本
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/TLSminer/SecClient/main/seclientcn.sh)"
-```
+
 
 # WIN版下载地址
 [win版安全客户端.rar](https://github.com/TLSminer/SecClient/blob/main/win%E7%89%88%E5%AE%89%E5%85%A8%E5%AE%A2%E6%88%B7%E7%AB%AF.rar)
