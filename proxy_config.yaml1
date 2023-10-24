@@ -1,0 +1,8 @@
+Proxies:
+  - Listen: ":19001"
+GRPC:
+  Target: "${sip}:{sport}"
+  TLSConfig:
+    Cert: certs/client_cert.pem
+    Key: certs/client_key.pem
+
